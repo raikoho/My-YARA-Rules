@@ -4,11 +4,11 @@ Collection of rules for YARA for specific programs, cases and signatures
 It has this structure:
 
 
-## YARA_Rules/
+## YARA_Rules
 
 
 
-### ├── Malware/
+### ├── Malware
 
 │   ├── Viruses/
 
@@ -20,13 +20,13 @@ It has this structure:
 
 │   ├── Rootkits/
 
-│   ├── Keyloggers/
+│   ├── Keyloggers/---5---
 
 │   └── Worms/
 
 │
 
-### ├── Attack_Techniques/
+### ├── Attack_Techniques
 
 │   ├── SQL_Injection/
 
@@ -42,7 +42,7 @@ It has this structure:
 
 │
 
-├── OS_Specific/
+### ├── OS_Specific
 
 │   ├── Windows/
 
@@ -52,7 +52,7 @@ It has this structure:
 
 │
 
-### ├── Network_Traffic/
+### ├── Network_Traffic
 
 │   ├── DNS_Tunneling/
 
@@ -64,7 +64,7 @@ It has this structure:
 
 │
 
-### └── Techniques/
+### └── Techniques
 
 │   ├── Obfuscation/
     
