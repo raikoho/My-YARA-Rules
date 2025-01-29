@@ -8,7 +8,7 @@ It has this structure:
 
 
 
-├── ###  Malware/
+### ├── Malware/
 
 │   ├── Viruses/
 
@@ -26,7 +26,7 @@ It has this structure:
 
 │
 
-├── Attack_Techniques/
+### ├── Attack_Techniques/
 
 │   ├── SQL_Injection/
 
@@ -52,7 +52,7 @@ It has this structure:
 
 │
 
-├── Network_Traffic/
+### ├── Network_Traffic/
 
 │   ├── DNS_Tunneling/
 
@@ -64,7 +64,7 @@ It has this structure:
 
 │
 
-└── Techniques/
+### └── Techniques/
 
 │   ├── Obfuscation/
     
