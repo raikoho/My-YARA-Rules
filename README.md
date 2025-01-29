@@ -8,7 +8,7 @@ It has this structure:
 
 
 
-├── Malware/
+├── ###  Malware/
 
 │   ├── Viruses/
 
@@ -19,6 +19,8 @@ It has this structure:
 │   ├── Exploits/
 
 │   ├── Rootkits/
+
+│   ├── Keyloggers/
 
 │   └── Worms/
 
