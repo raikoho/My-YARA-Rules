@@ -3,6 +3,7 @@ Collection of rules for YARA for specific programs, cases and signatures
 
 It has this structure:
 
+
 YARA_Rules/
 
 │
@@ -62,7 +63,11 @@ YARA_Rules/
 │
 
 └── Techniques/
+
     ├── Obfuscation/
+    
     ├── Encryption/
+    
     ├── Persistence/
+    
     └── Anti_Debugging/
