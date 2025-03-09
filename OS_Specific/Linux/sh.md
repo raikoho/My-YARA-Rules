@@ -1,3 +1,4 @@
+```
 rule LinuxShellScript
 {
     meta:
@@ -12,3 +13,4 @@ rule LinuxShellScript
     condition:
         $sh_magic at 0
 }
+```
