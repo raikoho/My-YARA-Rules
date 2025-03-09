@@ -1,3 +1,4 @@
+```
 rule ZIPArchive
 {
     meta:
@@ -12,3 +13,6 @@ rule ZIPArchive
     condition:
         $zip_magic at 0
 }
+```
+
+$zip_magic: This is the magic number for .zip files, which starts at bytes 50 4B 03 04. This is the standard start for ZIP files.
