@@ -1,3 +1,4 @@
+```
 rule RARArchive
 {
     meta:
@@ -12,3 +13,4 @@ rule RARArchive
     condition:
         $rar_magic at 0
 }
+```
