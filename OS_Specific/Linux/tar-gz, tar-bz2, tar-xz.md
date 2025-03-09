@@ -1,3 +1,4 @@
+```
 rule LinuxTarArchive
 {
     meta:
@@ -15,3 +16,4 @@ rule LinuxTarArchive
     condition:
         $tar_magic at 0 or $gzip_magic at 0 or $bzip2_magic at 0 or $xz_magic at 0
 }
+```
