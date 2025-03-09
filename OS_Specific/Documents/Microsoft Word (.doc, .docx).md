@@ -16,7 +16,8 @@ rule MaliciousWordDocument
 }
 ```
 
-Explanation:
+## Explanation:
 
 ``$doc_magic:`` This is the magic number for old .doc files (OLE2 files), which starts with bytes D0 CF 11 E0 A1 B1 1A E1.
+
 ``$docx_magic:`` This is the magic number for .docx files, which starts with bytes 50 4B 03 04 14 00 08 00, which indicates a ZIP archive, since .docx documents are actually archives.
