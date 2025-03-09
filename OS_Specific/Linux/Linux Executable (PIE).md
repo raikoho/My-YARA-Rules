@@ -1,3 +1,4 @@
+```
 rule LinuxExecutablePIE
 {
     meta:
@@ -12,3 +13,4 @@ rule LinuxExecutablePIE
     condition:
         $pie_magic at 0
 }
+```
