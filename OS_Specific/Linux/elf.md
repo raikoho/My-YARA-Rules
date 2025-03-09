@@ -1,3 +1,4 @@
+```
 rule LinuxExecutableELF
 {
     meta:
@@ -12,3 +13,4 @@ rule LinuxExecutableELF
     condition:
         $elf_magic at 0
 }
+```
